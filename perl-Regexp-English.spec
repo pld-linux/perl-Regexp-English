@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	English
-Summary:	Regexp::English perl module - create regular expressions more verbosely
-Summary(pl):	Modu³ perla Regexp::English - do bardziej rozwlek³ych wyra¿eñ regularnych
+Summary:	Regexp::English Perl module - create regular expressions more verbosely
+Summary(pl):	Modu³ Perla Regexp::English - tworzenie bardziej rozwlek³ych wyra¿eñ regularnych
 Name:		perl-Regexp-English
 Version:	0.21
 Release:	2
