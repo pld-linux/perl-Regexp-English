@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	English
+%define		pdir	Regexp
+%define		pnam	English
 Summary:	Regexp::English Perl module - create regular expressions more verbosely
 Summary(pl):	Modu³ Perla Regexp::English - tworzenie bardziej rozwlek³ych wyra¿eñ regularnych
 Name:		perl-Regexp-English
