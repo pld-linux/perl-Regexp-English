@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	English
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Regexp::English - tworzenie bardziej rozwlek³ych wyra¿e
 Name:		perl-Regexp-English
 Version:	0.21
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	63ccfbe00390edf169c2bc89901da81a
@@ -35,6 +40,8 @@ wyra¿eñ i wychwytywanie ograniczeñ.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
