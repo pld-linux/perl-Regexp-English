@@ -9,7 +9,7 @@ Summary:	Regexp::English Perl module - create regular expressions more verbosely
 Summary(pl):	Modu³ Perla Regexp::English - tworzenie bardziej rozwlek³ych wyra¿eñ regularnych
 Name:		perl-Regexp-English
 Version:	0.21
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
