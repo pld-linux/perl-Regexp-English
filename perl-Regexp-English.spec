@@ -5,7 +5,7 @@ Summary:	Regexp::English perl module - create regular expressions more verbosely
 Summary(pl):	Modu³ perla Regexp::English - do bardziej rozwlek³ych wyra¿eñ regularnych
 Name:		perl-Regexp-English
 Version:	0.21
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
