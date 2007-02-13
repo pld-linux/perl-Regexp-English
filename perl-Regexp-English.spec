@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	English
 Summary:	Regexp::English Perl module - create regular expressions more verbosely
-Summary(pl.UTF-8):   Moduł Perla Regexp::English - tworzenie bardziej rozwlekłych wyrażeń regularnych
+Summary(pl.UTF-8):	Moduł Perla Regexp::English - tworzenie bardziej rozwlekłych wyrażeń regularnych
 Name:		perl-Regexp-English
 Version:	1.00
 Release:	1
