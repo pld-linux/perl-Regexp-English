@@ -8,13 +8,13 @@
 Summary:	Regexp::English Perl module - create regular expressions more verbosely
 Summary(pl.UTF-8):	Moduł Perla Regexp::English - tworzenie bardziej rozwlekłych wyrażeń regularnych
 Name:		perl-Regexp-English
-Version:	1.00
+Version:	1.01
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a45458c387580d731f192469a694bfc0
+# Source0-md5:	4d388ced5149dd46d7c8613f937fe97a
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Test-Simple >= 0.30
 BuildRequires:	rpm-perlprov >= 4.1-13
